@@ -1,0 +1,160 @@
+body{
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo{
+	width: 380px;
+	margin: auto;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a{
+	width: 120px;
+	height: 120px;
+}
+
+.logo h1{
+	font-family: 'Amatic SC', cursiv;
+	font-size: 70px;
+	color: #fffef5;
+	margin: auto;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	position: fixed;
+	height: 165px;
+	background-color: #705a3a;
+}
+
+a{
+	text-align: center;
+	font-family: 'Amatic SC', cursiv;
+	font-size: 30px;
+}
+
+
+.f{
+	width: 25%;
+	text-decoration: none;
+	background-color: #a6a87b;
+	color: white;
+}
+
+.s{
+	width: 25%;
+	text-decoration: none;
+	background-color: #cfc08f;
+	color: white;
+}
+
+.spacer {
+	width: 100%;
+	height: 550px;
+}
+
+.line{
+	width: 100%;
+	height: 80px;
+	background-color: #979984;	
+}
+
+.base{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background-color: rgba(207,192,143,0.9);
+}
+
+.containercup{
+	width: 50%;
+	float: left;
+	margin-top: 40px;
+}
+
+.cup{
+	width: 210px;
+	height: 210px;
+	margin: auto;
+}
+
+.text{
+	margin: auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursiv;
+	font-size: 15px;
+	color: white;
+}
+
+.containertext{
+	width: 50%;
+	float: right;
+}
+
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+	height: 140px;
+	background-color: #705a3a;
+	font-family: 'Amatic SC', cursiv;
+	color: white;
+}
+
+@media screen and (max-width: 992px) { /* Для цветных экранов */
+	.containercup{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.containertext{
+		width: 100%;
+	}
+
+	.base{
+		width: 100%;
+		height: 600px;
+		margin: 0 auto;
+		background-color: rgb(207,192,143);
+	}
+
+	.spacer {
+		width: 100%;
+		height: 550px;
+		background-image: url(bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	a{
+		text-align: center;
+		font-family: 'Amatic SC', cursiv;
+		font-size: 30px;
+	}
+
+
+	.f{
+		width: 50%;
+		text-decoration: none;
+		background-color: #a6a87b;
+		color: white;
+	}
+
+	.s{
+		width: 50%;
+		text-decoration: none;
+		background-color: #cfc08f;
+		color: white;
+	}
+}
