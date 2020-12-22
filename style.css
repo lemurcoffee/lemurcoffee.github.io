@@ -140,22 +140,7 @@ a{
 	a{
 		text-align: center;
 		font-family: 'Amatic SC', cursiv;
-		font-size: 30px;
-	}
-
-
-	.f{
-		width: 50%;
-		text-decoration: none;
-		background-color: #a6a87b;
-		color: white;
-	}
-
-	.s{
-		width: 50%;
-		text-decoration: none;
-		background-color: #cfc08f;
-		color: white;
+		font-size: 60px;
 	}
 }
 
@@ -180,5 +165,11 @@ a{
 		height: 600px;
 		margin: 0 auto;
 		background-color: rgb(207,192,143);
+	}
+
+	a{
+		text-align: center;
+		font-family: 'Amatic SC', cursiv;
+		font-size: 70px;
 	}
 }
